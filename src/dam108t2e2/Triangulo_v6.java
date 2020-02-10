@@ -1,4 +1,4 @@
-package Dam108t2e2;
+package dam108t2e2;
 
 public class Triangulo_v6 extends Figura2D_v6 {
     public String estilo;

@@ -1,4 +1,4 @@
-package Dam108t2e2;
+package dam108t2e2;
 public class Figura2D_v3 {
     private double ancho;
     private double alto;

@@ -1,4 +1,4 @@
-package Dam108t2e2;
+package dam108t2e2;
 
 public class TrianColor_v7 extends Triangulo_v7 {
     private String color;
