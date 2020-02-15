@@ -11,14 +11,14 @@ public final class CuentaPlazo extends CuentaCorriente {
 
     @Override
     public String toString() {
-        return "CuentaPlazo{" + "IBAN=" + IBAN + ", saldo=" + super.getSaldo() + " fecha=" + fecha + '}';
+        return "CuentaPlazo{" + "IBAN=" + IBAN + ", saldo=" + saldo + " fecha=" + fecha + '}';
     }
     
     @Override
     public boolean retirar(float importe){
-        if (importe <= super.getSaldo()) {
-            super.setSaldo(super.getSaldo() - importe);
-            super.setcontadorIngresos(0);
+        if (importe <= saldo) {
+            saldo -= importe;
+            contadorIngresos = 0;
             return true;
         }
         else return false;

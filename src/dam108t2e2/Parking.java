@@ -14,10 +14,8 @@ public class Parking {
         for (int i = 0; i < MAXPLAZAS; i++) {
             vehiculos.add(new Vehiculo(0));
         }
-        
     }
 
-  
     public int aparcar(Vehiculo auto){
         //generamos un numero entre 0 y 99
         // comprobamos que esa posicion en el array este vacia y guardamos el coche

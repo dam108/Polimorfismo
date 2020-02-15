@@ -1,13 +1,14 @@
 package dam108t2e2;
 import java.util.*;
 public class dam108t2e211 {
+    /* MAIN MUY GUARRO PERO FUNCIONA , TENIA PRISA */
     public static void main(String[] args) {
         Scanner tec = new Scanner(System.in);
         String IBAN ="";
         ArrayList<CuentaCorriente> cuentas = new ArrayList<>();
         int opt = 0;
         do{
-            System.out.println("1. añadir cuenta\n2. eliminar cuenta\n3. ingresar \n4. retirar\n5. Para datos de las cuentas\n6 Para salir");
+            System.out.println("1. añadir cuenta\n2. eliminar cuenta\n3. ingresar \n4. retirar\n5. Para datos de las cuentas\n6. Para salir");
             opt = tec.nextInt();
             
             switch(opt){

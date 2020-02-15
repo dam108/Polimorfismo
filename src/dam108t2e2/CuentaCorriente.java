@@ -26,12 +26,6 @@ public static void setComision (float pc, float mc) {
     porcentajeComision = pc;
     minimoComision = mc;
 }
-public static float getPorcentajeComision ()                      {return porcentajeComision;}
-public static float getMinimoCosmision ()                         {return minimoComision;}
-public float        getSaldo ()                                   {return (saldo);}
-public void         setSaldo (float newSaldo)                     { this.saldo = newSaldo;} 
-public int          getcontadorIngresos ()                        {return (contadorIngresos);}
-public void         setcontadorIngresos (int newContIngresos)     { this.contadorIngresos = newContIngresos;} 
 
 public void ingresar (float importe) {
     float bonus=0;
